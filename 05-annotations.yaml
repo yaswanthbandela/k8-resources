@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainer: siva_kumar
+  annotations:
+    kubernetes.io/created-by: 'yaswanthbandela'
+spec:
+  containers:
+    - name: nginx
+      image: nginx
