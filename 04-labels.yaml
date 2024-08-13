@@ -4,7 +4,7 @@ metadata:
   name: labels
   labels:
     course: k8
-    trainer: siva kumar
+    trainer: "siva kumar"
 spec:
   containers:
     - name: nginx
